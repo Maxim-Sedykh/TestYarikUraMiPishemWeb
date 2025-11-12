@@ -11,7 +11,8 @@ namespace TestYarikUraMiPishemWeb
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            // Add services to the container.
+            // Add services to the container.
             builder.Services.AddDbContext<ApplicationContext>(options =>
             {
                 options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=helloappdb;Trusted_Connection=True;");
