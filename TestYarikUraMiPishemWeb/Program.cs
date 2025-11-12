@@ -1,4 +1,3 @@
-
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
@@ -25,7 +24,6 @@ namespace TestYarikUraMiPishemWeb
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = ".Net 9 API", Version = "v1" });
             });
 
-            // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
 
             var app = builder.Build();

@@ -15,7 +15,7 @@ namespace TestYarikUraMiPishemWeb
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
+            // гавно
         }
     }
 }
